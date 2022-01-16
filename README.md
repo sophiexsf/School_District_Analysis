@@ -2,18 +2,20 @@
 
 ## Overview
 
-The school board believes that the reading and math grades for Thomas High School might have been altered. By analyzing the results with and without those grades we aim to determine whether they are consistent with the remaining school district. 
+We have been tasked with analyzing the performance of schools in a particular school district. The analysis includes breakdowns of math and reading scores by school, grade, school type, school size, and spending.
+
+The school board believes that the reading and math grades for ninth grade at Thomas High School might have been altered. By analyzing the results with and without those grades we aim to determine whether they are consistent with the remaining school district. 
 
 ## Results
 
 For this analysis we will use the term "full" to represent the original source data and "adjusted" to represent the data with results for Thomas High School grade 9 students removed.
 
 ### District Summary
-Comparing the full district summary with the adjusted data, although the average math and reading scores are generally unchanged, the passing percentages are higher when the THS 9th grade results are included. Overall passing rates are 1 percentage point higher.
+Comparing the full district summary with the adjusted data, although the average math and reading scores are generally unchanged, the passing percentages are higher when the THS 9th grade results are included. Overall passing rates are 0.3 percentage points higher. The total number of students was adjusted down by 461 due to removing their scores.
 
-* Math passing percentage decreases from 75.9% to 74.8% when THS 9th grade scores are excluded.
-* Reading passing percentage decreases from 86.8% to 85.7% when THS 9th grade scores are excluded.
-* Overall passing percentage decreases from 65.9% to 64.9% when THS 9th grade scores are excluded. Given the population size this means approx. 392 more students would be passing if the percentages with THS 9th grade included are accurate.
+* Math passing percentage decreases from 75.0% to 74.8% when THS 9th grade scores are excluded.
+* Reading passing percentage decreases from 85.8% to 85.7% when THS 9th grade scores are excluded.
+* Overall passing percentage decreases from 65.2% to 64.9% when THS 9th grade scores are excluded. Given the population size this means approx. 118 more students would be passing if the percentages with THS 9th grade included are accurate.
 
 Full district summary:
 
@@ -29,8 +31,6 @@ As expected, only the Thomas High School statistics have changed between the ful
 
 * Average math scores are higher at 83.42 in the full data set vs. 83.35 in the adjusted data set, increasing the passing rate by approximately 0.1 percentage point (93.27% vs. 93.19%).
 * Average reading scores are lower at 83.85 in the full data set vs. 83.90 in the adjusted data set, whereas the passing rate increased by approximately 0.3 percentage points (97.31% vs. 97.02%).
-
-The lower average reading scores suggest that any intentional changes to the scores would benefit the students (and the school's ranking) only in math.
 
 Full school summary:
 
@@ -114,5 +114,7 @@ Adjusted scores by school type:
 
 After adjusting the results by removing the 9th grade scores for Thomas High School, the analysis changed in the following ways:
 
-* Overall passing rates across the district dropped by 1 percentage point (from 65.9% to 64.9%)
-* 
+* Overall passing rates across the district dropped by 0.3 percentage points (from 65.2% to 64.9%).
+* Math scores for Thomas High School are lower with 9th grade excluded, as they appear to perform slightly better than 10th through 12th grade at the same school.
+* Despite the average reading scores being higher with THS 9th grade excluded, the reading passing percentage is lower by 0.3 percentage points (97.31% vs. 97.02%). This could only be explained by a wider range of scores in 9th grade than others.
+* Differences were only observed in values at 1 or 2 decimal places, if at all. The impact of academic dishonesty, if any, appears to have minimal impact on the overall outcomes for the district.
