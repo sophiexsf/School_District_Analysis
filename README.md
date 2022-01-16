@@ -15,7 +15,7 @@ Comparing the full district summary with the adjusted data, although the average
 
 * Math passing percentage decreases from 75.0% to 74.8% when THS 9th grade scores are excluded.
 * Reading passing percentage decreases from 85.8% to 85.7% when THS 9th grade scores are excluded.
-* Overall passing percentage decreases from 65.2% to 64.9% when THS 9th grade scores are excluded. Given the population size this means approx. 118 more students would be passing if the percentages with THS 9th grade included are accurate.
+* Overall passing percentage decreases from 65.2% to 64.9% when THS 9th grade scores are excluded.
 
 Full district summary:
 
